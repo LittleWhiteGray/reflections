@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+- Creates a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- You add files from working directory to the stating area, and then commit from here to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- compare with the repository: git diff --staged
+
+How do the diagrams help you visualize the branch structure?
+- You can have a clear picture of reachability.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The two branches are merged, with changes from both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- automatic eases your work when there is no conflicts.
+  manually allows you to solve the conflicts.
+
+
